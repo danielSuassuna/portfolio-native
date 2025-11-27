@@ -4,16 +4,16 @@ import { SafeAreaView } from "react-native-safe-area-context"
 export default function ProjectsScreen() {
   const projects = [
     {
-      title: "E-Commerce Mobile App",
+      title: "Detecção de face",
       description:
-        "Aplicação de e-commerce desenvolvida com React Native e Expo, com funcionalidades de catálogo, carrinho e checkout.",
-      technologies: ["React Native", "Expo", "TypeScript", "Axios"],
+        "Aplicação de detecção de rostos humanos em imagens usando o algorítmo YOLO",
+      technologies: ["Python", "YOLO"],
       date: "2024",
     },
     {
-      title: "Todo App com Persistência",
-      description: "Aplicativo de tarefas com suporte offline e sincronização de dados usando AsyncStorage.",
-      technologies: ["React Native", "Expo", "AsyncStorage"],
+      title: "ResNet with keras",
+      description: "Código completo criando a arquitetura Resnet com keras",
+      technologies: ["Python", "Keras", "Tensorflow"],
       date: "2024",
     },
     {
@@ -27,12 +27,6 @@ export default function ProjectsScreen() {
       title: "Aplicação de Notas",
       description: "Sistema de notas com categorização, busca e edição em tempo real.",
       technologies: ["React Native", "Expo Router", "Context API"],
-      date: "2023",
-    },
-    {
-      title: "Jogo de Breakout",
-      description: "Jogo 2D desenvolvido em Canvas com física de colisão e progressão de fases.",
-      technologies: ["JavaScript", "Canvas API", "HTML5"],
       date: "2023",
     },
   ]
